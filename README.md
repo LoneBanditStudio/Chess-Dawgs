@@ -1,4 +1,4 @@
-LoneBanditChess Contract
+
 This contract is currently under development and not audited yet. Use it at your own risk.
 
 This Solidity contract implements a chess game where two players can compete by depositing a certain amount of $DDAWGS ERC20 tokens. The winner of the game (simulated for now) receives a portion of the combined deposits, while a percentage 
