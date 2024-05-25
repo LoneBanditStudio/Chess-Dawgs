@@ -12,7 +12,6 @@ Minimum Deposit: A minimum amount of $DDAWGS tokens is required to participate.
 Game State Management: The contract tracks the current game state (Open, InProgress, Finished).
 Emergency Withdraw: The contract owner can withdraw any remaining $DDAWGS tokens in case of emergency.
 
-This contract uses an ERC20 token for deposits.
 The current finishGame function simulates a winner. The actual chess logic to determine the winner is implemented on UI as it can be gas innefficient to track every move on chain.
 
 Disclaimer:
