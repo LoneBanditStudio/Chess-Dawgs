@@ -54,6 +54,7 @@ contract LoneBanditChess is ReentrancyGuard {
   }
 
   // Transfer ownership
+
   function transferOwnership(address newOwner) public onlyOwner {
     require(newOwner != address(0), "New owner cannot be zero address");
     emit OwnershipTransferred(owner, newOwner);
